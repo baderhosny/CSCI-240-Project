@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_262" class="java.beans.XMLDecoder">
+ <object class="Model" id="Model0">
+  <void property="cars">
+   <void method="add">
+    <object class="Car">
+     <void property="color">
+      <string>red</string>
+     </void>
+     <void property="forSale">
+      <boolean>true</boolean>
+     </void>
+     <void property="historyAccident">
+      <string>2</string>
+     </void>
+     <void property="make">
+      <string>honda</string>
+     </void>
+     <void property="model">
+      <string>pasd</string>
+     </void>
+     <void property="owner">
+      <object class="User">
+       <void property="balance">
+        <double>110000.0</double>
+       </void>
+       <void property="dob">
+        <string>1998-01-01</string>
+       </void>
+       <void property="firstName">
+        <string>brandon</string>
+       </void>
+       <void property="lastName">
+        <string>brandon</string>
+       </void>
+       <void property="password">
+        <string>brandon</string>
+       </void>
+       <void property="username">
+        <string>brandon</string>
+       </void>
+      </object>
+     </void>
+     <void property="price">
+      <double>5002.0</double>
+     </void>
+     <void property="status">
+      <string>For sale</string>
+     </void>
+     <void property="year">
+      <int>2005</int>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Car">
+     <void property="color">
+      <string>red</string>
+     </void>
+     <void property="historyAccident">
+      <string>0</string>
+     </void>
+     <void property="make">
+      <string>asd</string>
+     </void>
+     <void property="model">
+      <string>gdfssg</string>
+     </void>
+     <void property="owner">
+      <object class="Seller" id="Seller0">
+       <void property="balance">
+        <double>1.2431241E7</double>
+       </void>
+       <void property="dob">
+        <string>1950-02-02</string>
+       </void>
+       <void property="firstName">
+        <string>seller</string>
+       </void>
+       <void property="lastName">
+        <string>seller</string>
+       </void>
+       <void property="password">
+        <string>seller</string>
+       </void>
+       <void property="ssn">
+        <string>1384y234</string>
+       </void>
+       <void property="username">
+        <string>seller</string>
+       </void>
+      </object>
+     </void>
+     <void property="price">
+      <double>6000.0</double>
+     </void>
+     <void property="status">
+      <string>For sale</string>
+     </void>
+     <void property="year">
+      <int>2005</int>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Car">
+     <void property="color">
+      <string>cyan</string>
+     </void>
+     <void property="historyAccident">
+      <string>0</string>
+     </void>
+     <void property="make">
+      <string>honda</string>
+     </void>
+     <void property="model">
+      <string>civic</string>
+     </void>
+     <void property="owner">
+      <object idref="Seller0"/>
+     </void>
+     <void property="price">
+      <double>40000.0</double>
+     </void>
+     <void property="status">
+      <string>For sale</string>
+     </void>
+     <void property="year">
+      <int>2030</int>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Car">
+     <void property="color">
+      <string>black</string>
+     </void>
+     <void property="historyAccident">
+      <string>1</string>
+     </void>
+     <void property="make">
+      <string>toyota</string>
+     </void>
+     <void property="model">
+      <string>camry</string>
+     </void>
+     <void property="owner">
+      <object idref="Seller0"/>
+     </void>
+     <void property="price">
+      <double>12000.0</double>
+     </void>
+     <void property="status">
+      <string>For sale</string>
+     </void>
+     <void property="year">
+      <int>2012</int>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Car">
+     <void property="color">
+      <string>purple</string>
+     </void>
+     <void property="historyAccident">
+      <string>0</string>
+     </void>
+     <void property="make">
+      <string>dodge</string>
+     </void>
+     <void property="model">
+      <string>challenger</string>
+     </void>
+     <void property="owner">
+      <object idref="Seller0"/>
+     </void>
+     <void property="price">
+      <double>32000.0</double>
+     </void>
+     <void property="status">
+      <string>For sale</string>
+     </void>
+     <void property="year">
+      <int>2020</int>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="persons">
+   <void method="add">
+    <object class="Guest"/>
+   </void>
+   <void method="add">
+    <object class="Admin" id="Admin0">
+     <void property="dob">
+      <string>1900-01-01</string>
+     </void>
+     <void property="firstName">
+      <string>admin</string>
+     </void>
+     <void property="lastName">
+      <string>admin</string>
+     </void>
+     <void property="messages">
+      <void method="add">
+       <object class="Message">
+        <void property="dateReceived">
+         <string>2020-12-07T13:40:17.488</string>
+        </void>
+        <void property="text">
+         <string>Hello everyone!!</string>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="password">
+      <string>admin</string>
+     </void>
+     <void property="ssn">
+      <string></string>
+     </void>
+     <void property="username">
+      <string>admin</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Seller" id="Seller1">
+     <void property="balance">
+      <double>110000.0</double>
+     </void>
+     <void property="dob">
+      <string>1998-01-01</string>
+     </void>
+     <void property="firstName">
+      <string>brandon</string>
+     </void>
+     <void property="lastName">
+      <string>brandon</string>
+     </void>
+     <void property="messages">
+      <void method="add">
+       <object class="Message">
+        <void property="dateReceived">
+         <string>2020-12-07T13:40:17.491</string>
+        </void>
+        <void property="text">
+         <string>Hello everyone!!</string>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="password">
+      <string>brandon</string>
+     </void>
+     <void property="ssn">
+      <string>239847342</string>
+     </void>
+     <void property="username">
+      <string>brandon</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="User">
+     <void property="balance">
+      <double>20000.0</double>
+     </void>
+     <void property="dob">
+      <string>1900-01-04</string>
+     </void>
+     <void property="firstName">
+      <string>user</string>
+     </void>
+     <void property="lastName">
+      <string>user</string>
+     </void>
+     <void property="password">
+      <string>user</string>
+     </void>
+     <void property="username">
+      <string>user</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object idref="Seller0"/>
+   </void>
+  </void>
+ </object>
+</java>
